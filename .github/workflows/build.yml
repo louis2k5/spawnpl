@@ -1,4 +1,4 @@
-name: Build Plugin
+name: spawnplugin
 
 on:
   push:
@@ -23,6 +23,7 @@ jobs:
 
       - name: Build with Maven
         run: mvn clean package
+        working-directory: ./spawnplugin
 
       - name: Upload JAR
         uses: actions/upload-artifact@v4
