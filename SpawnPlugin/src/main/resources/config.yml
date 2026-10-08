@@ -1,0 +1,20 @@
+# Countdown in Sekunden, bevor man mit /spawn teleportiert wird
+countdown-seconds: 3
+
+messages:
+  spawn-set: "&aSpawn wurde an deiner Position gesetzt!"
+  spawn-teleport: "&aDu wurdest zum Spawn teleportiert."
+  spawn-not-set: "&cEs wurde noch kein Spawn gesetzt!"
+  only-players: "&cDieser Befehl ist nur für Spieler."
+  already-teleporting: "&cDu wirst bereits teleportiert!"
+  # {time} wird durch die verbleibenden Sekunden ersetzt (Anzeige über der Levelanzeige)
+  countdown: "&eTeleport in &6{time}"
+
+# Wird automatisch durch /setspawn gefüllt:
+# spawn:
+#   world: world
+#   x: 0.5
+#   y: 64.0
+#   z: 0.5
+#   yaw: 0.0
+#   pitch: 0.0

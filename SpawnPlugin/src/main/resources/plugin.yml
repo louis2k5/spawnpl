@@ -1,0 +1,23 @@
+name: SpawnPlugin
+version: 1.0.0
+main: de.spawn.SpawnPlugin
+api-version: "26.3"
+description: Setzt den Spawn und teleportiert Spieler mit /spawn dorthin
+
+commands:
+  setspawn:
+    description: Setzt den Spawn an deiner aktuellen Position
+    usage: /setspawn
+    permission: spawn.set
+  spawn:
+    description: Teleportiert dich zum Spawn
+    usage: /spawn
+    permission: spawn.use
+
+permissions:
+  spawn.set:
+    description: Erlaubt /setspawn
+    default: op
+  spawn.use:
+    description: Erlaubt /spawn
+    default: true
