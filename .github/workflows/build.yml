@@ -1,4 +1,4 @@
-name: spawnplugin
+name: Build SpawnPlugin
 
 on:
   push:
@@ -28,5 +28,5 @@ jobs:
       - name: Upload JAR
         uses: actions/upload-artifact@v4
         with:
-          name: SpawnPlugin
-          path: target/*.jar
+          name: SpawnPlugin-JAR
+          path: SpawnPlugin/target/*.jar
